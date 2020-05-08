@@ -69,3 +69,6 @@ gem 'device'
 gem 'haml-rails'
 gem 'font-awesome-rails'
 gem 'jquery-rails'
+
+#カテゴリ機能
+gem 'ancestry'
