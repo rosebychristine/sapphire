@@ -64,4 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'pry-rails'
 gem 'compass-rails', '3.1.0'
 gem 'sprockets', '3.7.2'
-gem 'device'
+
+gem 'device' 
+gem 'haml-rails'
+gem 'font-awesome-rails'
+gem 'jquery-rails'
+
