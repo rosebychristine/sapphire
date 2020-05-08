@@ -1,0 +1,28 @@
+.wrapper
+  .header-nav
+    .header-nav__left
+      %ul.
+        %li
+        %li
+        %li
+        %li
+    .header-nav__right
+      %ul.navigation__links
+        %li
+          = link_to "#",class: "header__link" do
+            .header__link-wrapper
+              Login
+        %li.cart
+          = link_to "#",class: "header__link" do
+            .header__link-wrapper
+              Cart 
+              (
+              %span#CartCount 0
+              )
+  .header-pic
+    .top-header
+      .top-header__inner   
+        %h1 S A P P H I R E
+  .main
+    .topsearch-area
+  .footer
